@@ -1,0 +1,66 @@
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+table{
+    width: 80vw;
+    margin:5%;
+}
+thead td{
+    background-color: #5832dd;
+    color: #fff;
+    text-align: center;
+    
+}
+
+tbody td{
+    text-align: center;
+}
+
+td{
+    border: 2px solid #5832dd;
+    transition: all 0.2s;
+}
+
+td:hover{
+    background-color: rgba(50,150,100,0.7);
+    color: #fff;
+}
+
+#back{
+    margin:5%;
+    margin-bottom: 0%;
+    width: 10%;
+    padding: 0.5rem;
+    transition: all 0.3s;
+}
+#back:hover{
+    background-color: #5832dd;
+    color: #fff;
+}
+
+
+@media screen and (max-width:400px) {
+
+    .container{
+        height: 100vh;
+    }
+
+    #back{
+        width: 60%;
+        margin-top: 20%;
+        margin-left: 50%;
+    }
+    table{
+        margin-left: 0%;
+        height: 100%;
+        margin-top: 40%;
+    }
+    td{
+        border-width:1px ;
+    }
+    
+}
