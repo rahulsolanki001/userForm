@@ -29,8 +29,8 @@ const AllForms=()=>{
                  </tr>
              </thead>
              <tbody>
-             {data.map((user,id)=>(
-                 <tr key={id}>
+             {data.map((user)=>(
+                 <tr key={user.id}>
                  <td>{id+1}</td>
                  <td>{user.fname + user.lname}</td>
                  <td>{user.email}</td>
